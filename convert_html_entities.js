@@ -43,8 +43,6 @@ function convertHTML(str) {
     // return str;
 }
 
-convertHTML("Dolce & Gabbana");
-
 convertHTML("Dolce & Gabbana");            // should return Dolce &​amp; Gabbana.
 convertHTML("Hamburgers < Pizza < Tacos"); // should return Hamburgers &​lt; Pizza &​lt; Tacos.
 convertHTML("Sixty > twelve");             // should return Sixty &​gt; twelve.
